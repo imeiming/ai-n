@@ -81,6 +81,7 @@ jobs:
           X_API_BEARER_TOKEN: ${{ secrets.X_API_BEARER_TOKEN }}
           # 运行环境标识
           BARK_URL: ${{ secrets.BARK_URL }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
           GITHUB_ACTIONS: true
           # 时区设置
           TZ: Asia/Shanghai
